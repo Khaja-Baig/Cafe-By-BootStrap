@@ -1,0 +1,55 @@
+.navbar {
+    height: 60px;
+    /* Adjust the height of the navbar */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    /* background-color: #333; */
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
+
+.navbar-brand img {
+    height: 80px;
+
+    .navbar-nav .nav-link {
+        padding: 20px;
+    }
+
+    .navbar-collapse {
+        justify-content: flex-end;
+    }
+
+    .navbar-collapse form {
+        margin-left: 20px;
+    }
+
+    .navbar-nav .nav-item {
+        font-size: 18px;
+    }
+
+    .nav-item:hover {
+        color: #fc0606;
+    }
+}
+
+.carousel-item img {
+    height: 800px;
+}
+
+body {
+    background-color: white;
+}
+.bth{
+    background-color: #fff;
+    color: #000;
+    height: 3rem;
+    width: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40.5rem;
+}
